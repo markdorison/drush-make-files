@@ -29,7 +29,7 @@ projects[views][subdir] = "acquia"
 projects[votingapi][subdir] = "acquia"
 projects[webform][subdir] = "acquia"
 
-; ketchum
+; other
 projects[adminrole][subdir] = "ketchum"
 projects[backup_migrate][subdir] = "ketchum"
 projects[better_formats][subdir] = "ketchum"
