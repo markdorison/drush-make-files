@@ -4,7 +4,6 @@ core = 6.x
 projects[] = drupal
 
 ; MODULES
-; projects[cck] = cck
 
 ; acquia
 projects[admin_menu][subdir] = "acquia"
@@ -29,47 +28,66 @@ projects[views][subdir] = "acquia"
 projects[votingapi][subdir] = "acquia"
 projects[webform][subdir] = "acquia"
 
-; other
-projects[adminrole][subdir] = "ketchum"
-projects[backup_migrate][subdir] = "ketchum"
-projects[better_formats][subdir] = "ketchum"
-projects[blocktheme][subdir] = "ketchum"
-projects[boost][subdir] = "ketchum"
-projects[coder][subdir] = "ketchum"
-projects[context][subdir] = "ketchum"
-projects[ctools][subdir] = "ketchum"
-projects[devel][subdir] = "ketchum"
-projects[globalredirect][subdir] = "ketchum"
-projects[hierarchical_select][subdir] = "ketchum"
-projects[i18n][subdir] = "ketchum"
-projects[image_resize_filter][subdir] = "ketchum"
-projects[insert][subdir] = "ketchum"
-projects[masquerade][subdir] = "ketchum"
-projects[nodewords][subdir] = "ketchum"
-projects[page_title][subdir] = "ketchum"
-projects[password_strength][subdir] = "ketchum"
-projects[path_redirect][subdir] = "ketchum"
-projects[quicktabs][subdir] = "ketchum"
-projects[sharethis][subdir] = "ketchum"
-projects[simpletest][subdir] = "ketchum"
-projects[stringoverrides][subdir] = "ketchum"
-projects[swftools][subdir] = "ketchum"
-projects[taxonomy_manager][subdir] = "ketchum"
-projects[userprotect][subdir] = "ketchum"
-projects[util][subdir] = "ketchum"
-projects[vertical_tabs][subdir] = "ketchum"
-projects[views_rotator][subdir] = "ketchum"
-projects[views_slideshow][subdir] = "ketchum"
-projects[wysiwyg][subdir] = "ketchum"
-projects[zenophile][subdir] = "ketchum"
-projects[xmlsitemap][subdir] = "ketchum"
 
+; administration
+projects[adminrole][subdir] = "other"
+projects[backup_migrate][subdir] = "other"
+projects[masquerade][subdir] = "other"
+projects[password_strength][subdir] = "other"
+projects[taxonomy_manager][subdir] = "other"
+projects[userprotect][subdir] = "other"
+projects[util][subdir] = "other"
+
+; development
+projects[coder][subdir] = "other"
+projects[devel][subdir] = "other"
+projects[simpletest][subdir] = "other"
+
+; multilingual
+projects[i18n][subdir] = "other"
+projects[stringoverrides][subdir] = "other"
+
+; other
+projects[context][subdir] = "other"
+projects[sharethis][subdir] = "other"
+projects[swftools][subdir] = "other"
+
+; performance
+projects[boost][subdir] = "other"
+projects[memcache][subdir] = "other"
+
+; seo
+projects[globalredirect][subdir] = "other"
+projects[nodewords][subdir] = "other"
+projects[page_title][subdir] = "other"
+projects[path_redirect][subdir] = "other"
+projects[xmlsitemap][subdir] = "other"
+
+; theming
+projects[blocktheme][subdir] = "other"
+projects[quicktabs][subdir] = "other"
+projects[zenophile][subdir] = "other"
+
+; user content creation
+projects[better_formats][subdir] = "other"
+projects[image_resize_filter][subdir] = "other"
+projects[insert][subdir] = "other"
+projects[wysiwyg][subdir] = "other"
+
+; ux
+projects[ctools][subdir] = "other"
+projects[hierarchical_select][subdir] = "other"
+projects[vertical_tabs][subdir] = "other"
+
+; views
+projects[views_rotator][subdir] = "other"
+projects[views_slideshow][subdir] = "other"
 
 ; THEMES
-projects[zen][subdir] = "ketchum"
-projects[fusion][subdir] = "ketchum"
-projects[clean][subdir] = "ketchum"
-projects[seven][subdir] = "ketchum"
+projects[zen][subdir] = "other"
+projects[fusion][subdir] = "other"
+projects[clean][subdir] = "other"
+projects[seven][subdir] = "other"
 
 ; LIBRARIES
 libraries[ckeditor][download][type] = "get"
