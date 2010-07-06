@@ -1,6 +1,5 @@
 ; CORE
 core = 6.x
-
 projects[] = drupal
 
 ; MODULES
@@ -85,17 +84,3 @@ projects[views_slideshow][subdir] = "other"
 
 ; THEMES
 projects[zen][subdir] = "other"
-projects[fusion][subdir] = "other"
-projects[clean][subdir] = "other"
-projects[seven][subdir] = "other"
-
-; LIBRARIES
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.2.1/ckeditor_3.2.1.tar.g$
-libraries[ckeditor][directory_name] = "ckeditor"
-
-; libraries[tinymce][download][type] = "get"
-; libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/fckeditor/FCKeditor/2.6.6/FCKeditor_2.6.6.$
-; libraries[tinymce][directory_name] = "fckeditor"
-
-
