@@ -71,6 +71,7 @@ projects[zenophile][subdir] = "other"
 ; user content creation
 projects[better_formats][subdir] = "other"
 projects[image_resize_filter][subdir] = "other"
+projects[imagefield_crop][subdir] = "other"
 projects[insert][subdir] = "other"
 projects[wysiwyg][subdir] = "other"
 
