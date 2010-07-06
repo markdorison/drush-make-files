@@ -40,6 +40,7 @@ projects[util][subdir] = "other"
 ; development
 projects[coder][subdir] = "other"
 projects[devel][subdir] = "other"
+projects[features][subdir] = "other"
 projects[simpletest][subdir] = "other"
 
 ; multilingual
